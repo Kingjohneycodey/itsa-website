@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href=../static/general/img/itsalogo.png> 
+		<link rel="stylesheet" href=../static/signup/css/stylesignup.css />
+		<link rel="stylesheet" href=../static/onboard/css/companyloginstyle.css />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link href="../../cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&amp;display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+		<title>Register | ITSA Inventory System</title>
+        <!-- Path to manifest.json -->
+<link rel="manifest" href="../manifest.json">
+
+<!-- Add to homescreen for Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="DHMS">
+
+
+<!-- Chrome for Android theme color -->
+<meta name="theme-color" content="#2A66B0">
+
+<!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DHMS">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+    
+        <link rel="apple-touch-icon" href="static/onboard/img/12by12icon.html" sizes="">
+    
+        <link rel="apple-touch-icon" href="static/onboard/img/72by72icon.html" sizes="">
+    
+        <link rel="apple-touch-icon" href="static/onboard/img/98by98icon.html" sizes="">
+    
+
+
+
+
+<link href="static/Home/img/dhmspwasplashscreendesktop.html" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"/>
+
+
+
+<!-- Tile for Win8 -->
+<meta name="msapplication-TileColor" content="#ffffff">
+
+<meta name="msapplication-TileImage" content="static/onboard/img/98by98icon.html">
+
+
+<link rel="icon" sizes="" href="static/onboard/img/98by98icon.html">
+	</head>
+	<body>
+		<main>
+            <div class='sideimagesection'>
+                <div class='bckgImg'></div>
+                
+                <img src=../static/signup/img/signupimg2.png />
+            </div>
+            <div>
+                <div class='nav'>
+                    <div class='registerform pageformsection'>
+                        <div class='registerformimg'>
+                            <img src=../static/generalonboard/img/itsalogopng.png />
+                        </div>
+                        <h4>Create Account</h4>
+                        <p>
+                            Optimize your device performance with our device health management system, Sign up now and never miss a beat.
+                        </p>
+				
+                        <div id="flash">
+                            
+                        </div>
+        
+       <!--                 <form method='POST'>-->
+							<!--<input type="hidden" name="csrfmiddlewaretoken" value="z5aMXZuju630mshQv99f9eX5tlZLFRtY9hVlUyDBZecrgLaJg7bsgQFqWCqVUBQS">-->
+       <!--                     <div class='formsection'>-->
+       <!--                         <p>Company Name</p>-->
+       <!--                         <input name='companyname' required type='text' placeholder='Enter Company Name' />-->
+       <!--                     </div>-->
+       <!--                     <div class='formsection'>-->
+       <!--                         <p>Email Address</p>-->
+       <!--                         <input name='companymail' required type='email' placeholder='Enter Company Email Address' />-->
+       <!--                     </div>-->
+       <!--                     <div class='formsection'>-->
+       <!--                         <p>Contact Phone Number</p>-->
+       <!--                         <input name='phonenumber' required type='number' placeholder='Enter Company Phone Number' />-->
+       <!--                     </div>-->
+       <!--                     <div class='formsection'>-->
+       <!--                         <p>Password</p>-->
+       <!--                         <input name='password' required type='password' placeholder='Enter A Password' />-->
+       <!--                     </div>-->
+       <!--                     <div class='formsection'>-->
+       <!--                         <p> Retype Password</p>-->
+       <!--                         <input name='rtpassword' required type='password' placeholder='Enter Above Password Again' />-->
+       <!--                     </div>-->
+
+       <!--                     <div class='formsubmitbtn'>-->
+       <!--                         <button type='submit'>Sign Up</button>-->
+       <!--                     </div>-->
+       <!--                 </form>-->
+       
+                        <form method='POST'>
+							<input type="hidden" name="csrfmiddlewaretoken" value="z5aMXZuju630mshQv99f9eX5tlZLFRtY9hVlUyDBZecrgLaJg7bsgQFqWCqVUBQS">
+                            <div class='formsection'>
+                                <p>Company Name</p>
+                                <input name='companyname' class='companyname' required type='text' maxlength=50 placeholder='Enter Company Name' />
+                            </div>
+                            <div class='formsection'>
+                                <p>Email Address</p>
+                                <input name='companymail' required maxlength=30  type='email' placeholder='Enter Company Email Address' />
+                            </div>
+                            <div class='formsection'>
+                                <p>Contact Phone Number</p>
+                                <input name='phonenumber' type="Number" maxlength=15 required placeholder='Enter Company Phone Number' />
+                            </div>
+                            <div class='formsection passwordinput'>
+                                <p>Password</p>
+                                <input name='password' maxlength=15 class='password' required type='password' placeholder='Enter a password' /><br/><br/>
+                                <div class='pwdeye eye'>
+                                    <img src=../static/onboard/img/eyeshow.png />
+                                </div>
+                                <div class='pwdeye eyeicon2'>
+                                    <img src=../static/onboard/img/eyehide.png />
+                                </div>
+                            </div>
+                            
+
+                            
+
+                            
+                            <div class='passwordcheck'>
+                                <p class='passchecksectionintro'><strong>Your password must include a minimum of </strong></p>
+                                <div class='passchecksection checklenght'>
+                                    <img src=../static/onboard/img/tick.png />
+                                    <p>Eight Characters </p>
+                                </div>
+                                <div class='passchecksection checkcase'>
+                                    <img src=../static/onboard/img/tick.png />
+                                    <p>One UPPERCASE Letter</p>
+                                </div>
+                                <div class='passchecksection checknum'>
+                                    <img src=../static/onboard/img/tick.png />
+                                    <p>One Number, and</p>
+                                </div>
+                                <div class='passchecksection checkspec'>
+                                    <img src=../static/onboard/img/tick.png />
+                                    <p>One Special Character (e.g !”@#%^&?)</p>
+                                </div>
+
+                            </div>
+                            
+                            <p class='passwordstrengthcheck'></p>
+                            <button type='submit' class='submitformbtn'>Sign Up</button>
+                            
+                        </form><br/>
+                        
+                            
+                                <div class='googlesignin2'>
+                                    <p>Or sign up with</p>
+                                    <a href="../accounts/google/login/index.html"><img src=../static/signup/img/google.png /></a>
+                                </div><br/>
+                            
+                        <!--<form action="/accounts/google/login/?next=/member/dashboard/" method='POST'>-->
+                        <!--    <input type="hidden" name="csrfmiddlewaretoken" value="z5aMXZuju630mshQv99f9eX5tlZLFRtY9hVlUyDBZecrgLaJg7bsgQFqWCqVUBQS">-->
+                        <!--    <div class='googlesignin'>-->
+                        <!--        <button type='submit' class='googlesigninner'>-->
+                        <!--            <div class='buttoninner'>-->
+                        <!--                <img src=/static/signup/img/google.png />-->
+                        <!--                <p>Sign Up With Google</p>-->
+                        <!--            </div>-->
+                        <!--        </button>-->
+                        <!--    </div>-->
+                        <!--    </form>-->
+                        <p class='logininstead'>Have an account already? <a href=../login/index.html>Sign In</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src=../static/onboard/js/companyonboard.js></script>
+    </body>
+
+</html>
+

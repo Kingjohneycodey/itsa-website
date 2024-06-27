@@ -1,0 +1,136 @@
+<html>
+	<!-- @format -->
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/x-icon" href=/static/general/img/itsalogo.PNG> 
+		<link rel="stylesheet" href=/static/generalonboard/css/style.css />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Path to manifest.json -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- Add to homescreen for Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="DHMS">
+
+
+<!-- Chrome for Android theme color -->
+<meta name="theme-color" content="#2A66B0">
+
+<!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DHMS">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+    
+        <link rel="apple-touch-icon" href="static/onboard/img/12by12icon.png" sizes="">
+    
+        <link rel="apple-touch-icon" href="static/onboard/img/72by72icon.png" sizes="">
+    
+        <link rel="apple-touch-icon" href="static/onboard/img/98by98icon.png" sizes="">
+    
+
+
+
+
+<link href="static/Home/img/dhmspwasplashscreendesktop.PNG" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"/>
+
+
+
+<!-- Tile for Win8 -->
+<meta name="msapplication-TileColor" content="#ffffff">
+
+<meta name="msapplication-TileImage" content="static/onboard/img/98by98icon.png">
+
+
+<link rel="icon" sizes="" href="static/onboard/img/98by98icon.png">
+
+
+<script type="text/javascript">
+    // Initialize the service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/serviceworker.js', {
+            scope: '/'
+        }).then(function (registration) {
+            // Registration was successful
+            
+            console.log('django-pwa: ServiceWorker registration successful with scope: ', registration.scope);
+            
+        }, function (err) {
+            // registration failed :(
+            
+            console.log('django-pwa: ServiceWorker registration failed: ', err);
+            
+        });
+    }
+</script>
+
+	</head>
+	<body>
+        
+		<script src=/static/generalonboard/js/main.js></script>
+    </body>
+</html>
+
+
+	 
+
+	
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href=/static/general/img/itsalogo.PNG> 
+		
+		<link rel="stylesheet" href=/static/resetpassword/css/style.css />
+		<link rel="stylesheet" href=/static/dashboard/css/style.css />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<title>Password Reset | ITSA Inventory System</title>
+	</head>
+
+	<body>
+
+
+	<!--Reset Password-->
+	<div class='resetpasswordsection'>
+		<div class='resetpasswordsection1'>
+			<img src=/static/resetpassword/img/resetpassword.png />
+		</div>
+		<div class='formproper'>
+			<div class='formpropertopbar'>
+				<img src=/static/resetpassword/img/itsalogo.png />
+			</div>
+			<div class='formproperinner'><br/><br/>
+				
+				
+					<div class=''>
+						<h4>Oops!! <br/>You just tried to access an unavailable page <br/>on the Device Health Mangement System.</h4>
+						<a href=/member/dashboard/><button class='errorbutton'>Return To Dashboard</button></a>
+					</div>
+				<a href = /login/><p class='login'> Click here to return to login</p></a>
+			</div>
+	   </div> 
+	</div>
+
+</body>
+</html>
+
+
+
+
+
